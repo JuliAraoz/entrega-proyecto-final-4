@@ -275,7 +275,7 @@ li {
   width: 652px; }
 
 .nombre {
-  font-size: 2rem;
+  font-size: 5rem;
   display: flex;
   justify-content: center;
   padding: 10px; }
@@ -327,4 +327,64 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  text-align: center; }
+  text-align: center;
+  height: 96%;
+  margin-top: 5px; }
+
+.fondoCompra {
+  border: 1px solid #747373;
+  background-color: #929292; }
+
+@media only screen and (max-width: 480px) {
+  .imgCompra {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px; }
+  .pagosEnvios {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 5px;
+    margin-top: 50px; }
+  .formaPago {
+    width: 70%;
+    margin-right: 0px; }
+  .mediosEnvios {
+    width: 70%;
+    margin-left: 0px; }
+  .imgRecomendado {
+    margin-top: 50px; }
+  .tituloForm {
+    font-size: 1.2rem; } }
+
+@media only screen and (max-width: 1024px) {
+  .imgCompra {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px; }
+  .gridCompraFlex {
+    display: flex;
+    justify-content: space-evenly; }
+  .imgRecomendado {
+    width: 230px; }
+  .botonProductos {
+    width: 230px !important;
+    background-color: #A4320B !important;
+    border: none !important;
+    border-radius: 0px !important; } }
+
+@media only screen and (max-width: 1024px) {
+  .imgCompra {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px; }
+  .gridCompraFlex {
+    display: flex;
+    justify-content: space-evenly; }
+  .imgRecomendado {
+    width: 230px; }
+  .botonProductos {
+    width: 230px !important;
+    background-color: #A4320B !important;
+    border: none !important;
+    border-radius: 0px !important; } }
