@@ -1,0 +1,70 @@
+.venta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid rgb(175, 175, 175);
+    background-color: rgb(194, 194, 194);
+}
+
+.especificaciones{
+    width: 652px;
+}
+.nombre{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.caracteristicas{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+.precio{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.precioBoton{
+    padding: 5px;
+    border: 1px solid rgb(175, 175, 175);
+}
+.imagenCompra{
+    width: 650px;
+    height: 581px;
+    margin-top: 10px;
+}
+.pagosEnvios{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px;
+    margin-top: 50px;
+}
+.formaPago{
+    width: 50%;
+    margin-right: 20px;
+
+}
+.mediosEnvios{
+    width: 50%;
+    margin-left: 20px;
+
+}
+.recomendado{
+    margin: 20px;
+}
+.tituloRecomendado{
+    margin-bottom: 20px;
+}
+.imgCompra{
+    background-image: url(../imagenes/bateria-compra.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+.formulario{
+    background-image: linear-gradient(to bottom, rgb(223, 223, 223), rgb(95, 95, 95));
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.beneficiosForm{
+    width: 100%;
+    text-align: center;
+}
+.newsletterForm{
+    width: 100%;
+    text-align: center;
+}
+.instrumentoForm{
+    width: 100%;
+    text-align: center;
+}
+.textoFormulario{
+    color:#A35318 ;
+    font-family: 'Source Sans Pro', sans-serifv;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botonesEnviar{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.tituloForm{
+    color: #2764FB;
+
+}
+.espaciadoForm{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,330 @@
+.fondoImg {
+  background-image: url("../imagenes/music-store-back.jpg");
+  background-attachment: fixed;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center; }
+
+.destacadosGuitarImg {
+  background-image: url(../imagenes/guitar-destacado2.png); }
+
+.destacadoBateriaImg {
+  background-image: url(../imagenes/bateria-destacado2.png); }
+
+.destacadoBajoImg {
+  background-image: url(../imagenes/bajo-destacado2.png); }
+
+.header {
+  padding: 20px; }
+
+.headerFooterFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.textoProductos {
+  text-align: center; }
+
+.footer {
+  background-color: #636363;
+  padding: 30px; }
+
+.terminos {
+  text-align: center; }
+
+.redes {
+  text-align: right; }
+
+.destacadosImg {
+  width: 266px;
+  height: 330px;
+  /*margin-left: 50px;*/ }
+
+.boton {
+  color: white;
+  background-color: red;
+  width: 224px;
+  height: 25px;
+  margin-left: 50px; }
+
+/*---ESPACIADOS---*/
+.espaciado {
+  margin-top: 50px; }
+
+.espacioProductos {
+  margin: 40px; }
+
+.footerLetra {
+  width: 33%; }
+
+body {
+  background-color: #dfdfdf !important; }
+
+.header {
+  background-color: #A4320B; }
+
+.productos {
+  color: #A4320B; }
+
+.colorMenu {
+  background-color: gainsboro; }
+
+.colorEspacioMenu {
+  color: #A4320B !important;
+  margin-bottom: 20px !important;
+  padding-top: 25px !important;
+  font-size: 1.2rem !important; }
+
+.formulario {
+  background-image: linear-gradient(to bottom, #dfdfdf, #5f5f5f);
+  padding-top: 20px;
+  padding-bottom: 50px; }
+
+.beneficiosForm {
+  width: 100%;
+  text-align: center; }
+
+.newsletterForm {
+  width: 100%;
+  text-align: center; }
+
+.instrumentoForm {
+  width: 100%;
+  text-align: center; }
+
+.textoFormulario {
+  color: #A35318;
+  font-family: 'Source Sans Pro', sans-serifv;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.botonesEnviar {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.tituloForm {
+  color: #2764FB; }
+
+.espaciadoForm {
+  margin-bottom: 15px; }
+
+.letraTitulos {
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 10px;
+  margin-bottom: 30px; }
+
+.tituloFondo {
+  font-family: "Source Sans Pro", sans-serif !important;
+  color: #f9f9f9;
+  font-size: 3rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+
+ul {
+  list-style-type: none;
+  list-style-position: unset; }
+
+li {
+  text-align: center; }
+
+/*---AUDIO---*/
+.audioImg {
+  background-image: url(../imagenes/Audio.jpg);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center; }
+
+.promoAudio1 {
+  background-image: url(../imagenes/audio-promo1.png); }
+
+.promoAudio2 {
+  background-image: url(../imagenes/audio-promo2.png); }
+
+.promoAudio3 {
+  background-image: url(../imagenes/audio-promo3.png); }
+
+/*---BAJO---*/
+.bajoImg {
+  background-image: url(../imagenes/BAJO.jpg);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center; }
+
+.promoBajo1 {
+  background-image: url(../imagenes/bajo-promo1.png); }
+
+.promoBajo2 {
+  background-image: url(../imagenes/bajo-promo2.png); }
+
+.promoBajo3 {
+  background-image: url(../imagenes/bajo-promo3.png); }
+
+/*---GUITARRA---*/
+.guitarraImg {
+  background-image: url(../imagenes/GUITARRA4.jpg);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center; }
+
+.promoGuitarra1 {
+  background-image: url(../imagenes/guitarra-promo1.png); }
+
+.promoGuitarra2 {
+  background-image: url(../imagenes/guitarra-promo2.png); }
+
+.promoGuitarra3 {
+  background-image: url(../imagenes/guitarra-promo3.png); }
+
+/*---PERCUSION---*/
+.percusionImg {
+  background-image: url(../imagenes/PERCUSION.jpg);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center; }
+
+.promoPercusion1 {
+  background-image: url(../imagenes/percusion-promo1.png); }
+
+.promoPercusion2 {
+  background-image: url(../imagenes/percusion-promo2.png); }
+
+.promoPercusion3 {
+  background-image: url(../imagenes/percusion-promo3.png); }
+
+/*---TECLADOS Y PIANOS---*/
+.tecladoPianoImg {
+  background-image: url(../imagenes/TECLADOS-Y-PIANO.jpg);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center; }
+
+.promoTecladoPiano1 {
+  background-image: url(../imagenes/teclado-piano-promo1.png); }
+
+.promoTecladoPiano2 {
+  background-image: url(../imagenes/teclado-piano-promo2.png); }
+
+.promoTecladoPiano3 {
+  background-image: url(../imagenes/teclado-piano-promo3.png); }
+
+.fondoProductos {
+  margin: 10px;
+  padding: 10px;
+  background-color: #eaeaea;
+  border: 1px solid #afafaf; }
+
+.botonProductos {
+  width: 266px !important;
+  background-color: #A4320B !important;
+  border: none !important;
+  border-radius: 0px !important; }
+
+.botonColor {
+  background-color: #A4320B !important;
+  border: none !important; }
+
+.destacadosGuitarImg {
+  background-image: url(../imagenes/guitar-destacado2.png); }
+
+.destacadoBateriaImg {
+  background-image: url(../imagenes/bateria-destacado2.png); }
+
+.destacadoBajoImg {
+  background-image: url(../imagenes/bajo-destacado2.png); }
+
+.productosAnimacion:hover {
+  transition: 0.5s;
+  transform: scale(1.1, 1.1);
+  cursor: pointer; }
+
+.venta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #afafaf;
+  background-color: #c2c2c2; }
+
+.especificaciones {
+  width: 652px; }
+
+.nombre {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+
+.caracteristicas {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 12px; }
+
+.precio {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem; }
+
+.precioBoton {
+  padding: 5px;
+  border: 1px solid #afafaf; }
+
+.imagenCompra {
+  width: 650px;
+  height: 581px;
+  margin-top: 10px; }
+
+.pagosEnvios {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 20px;
+  margin-top: 50px; }
+
+.formaPago {
+  width: 50%;
+  margin-right: 20px; }
+
+.mediosEnvios {
+  width: 50%;
+  margin-left: 20px; }
+
+.recomendado {
+  margin: 20px; }
+
+.tituloRecomendado {
+  margin-bottom: 20px; }
+
+.imgCompra {
+  background-image: url(../imagenes/bateria-compra.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center; }
