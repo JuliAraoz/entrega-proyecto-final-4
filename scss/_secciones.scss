@@ -88,3 +88,41 @@
 .promoTecladoPiano3{
     background-image: url(../imagenes/teclado-piano-promo3.png);
 }
+/*--RECOMENDACIONES--*/
+.recomendacionesImg{
+    background-image: url(../imagenes/recomendacionesImg.png);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+.recomendacionPlaylist{
+    padding: 20px;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.recomendacionAbrir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 700px;
+    height: 150px;
+}
+.textoRecomedacion{
+    font-size: 2.5rem;
+    padding-left: 10px;
+}
+.botonRecomendacionEspacio{
+    padding-right: 20px;
+    padding-top: 35px;
+}
+.botonRecomedacion{
+    width: 300px;
+    height: 55px;
+    background-color: #A4320B !important;
+    border: none!important;
+
+}
