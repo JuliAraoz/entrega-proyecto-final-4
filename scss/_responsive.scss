@@ -28,6 +28,47 @@
     .tituloForm{
         font-size: 1.2rem;
     }
+    .tituloMenu{
+        color: white;
+        font-size: 1.2rem;
+    }
+    .botonBuscar{
+        width: 75px!important;
+        height: 30px;
+    }
+    .recomendacionAbrir{
+        display: flex;
+        flex-direction: column;
+        /*justify-content: center;*/
+        margin: 10px;
+        /*margin-top: 700px;*/
+        height: 200px;
+    }
+    .textoRecomedacion{
+        justify-content: center;
+        font-size: 1.8rem;
+        margin-top: 30px;
+    }
+    .botonRecomendacionEspacio{
+        padding: 35px;
+    }
+    .botonRecomedacion{
+        width: 200px;
+        height: 55px;
+        background-color: #A4320B !important;
+        border: none!important;
+    
+    }
+    .fondoImg{
+        background-image:url("../imagenes/music-store-back.jpg");
+        background-attachment: local;
+    }
+    .botonProductos {
+        width: 2660px !important;
+        background-color: #A4320B !important;
+        border: none !important;
+        border-radius: 0px !important; 
+    }
 }
 @media only screen and (max-width:1024px) {
     .imgCompra{
@@ -43,31 +84,11 @@
         width: 230px;
     }
     .botonProductos{
-        width: 230px!important;
+        width: 266px!important;
         background-color: #A4320B !important;
         border: none !important;
         border-radius: 0px !important;
     }
 
 }
-@media only screen and (max-width:1024px) {
-    .imgCompra{
-        width: 100%;
-        height: 400px;
-        margin-top: 10px;
-    }
-    .gridCompraFlex{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .imgRecomendado{
-        width: 230px;
-    }
-    .botonProductos{
-        width: 230px!important;
-        background-color: #A4320B !important;
-        border: none !important;
-        border-radius: 0px !important;
-    }
 
-}
