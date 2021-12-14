@@ -69,6 +69,9 @@
         border: none !important;
         border-radius: 0px !important; 
     }
+    .botonCompra {
+        width: 230px !important;
+    }
 }
 @media only screen and (max-width:1024px) {
     .imgCompra{
@@ -88,6 +91,9 @@
         background-color: #A4320B !important;
         border: none !important;
         border-radius: 0px !important;
+    }
+    .botonCompra {
+        width: 230px !important;
     }
 
 }

@@ -403,6 +403,12 @@ li {
   border: 1px solid #747373;
   background-color: #929292; }
 
+.botonCompra {
+  width: 266px !important;
+  background-color: #A4320B !important;
+  border: none !important;
+  border-radius: 0px !important; }
+
 @media only screen and (max-width: 480px) {
   .imgCompra {
     width: 100%;
@@ -455,7 +461,9 @@ li {
     width: 2660px !important;
     background-color: #A4320B !important;
     border: none !important;
-    border-radius: 0px !important; } }
+    border-radius: 0px !important; }
+  .botonCompra {
+    width: 230px !important; } }
 
 @media only screen and (max-width: 1024px) {
   .imgCompra {
@@ -471,4 +479,6 @@ li {
     width: 266px !important;
     background-color: #A4320B !important;
     border: none !important;
-    border-radius: 0px !important; } }
+    border-radius: 0px !important; }
+  .botonCompra {
+    width: 230px !important; } }
