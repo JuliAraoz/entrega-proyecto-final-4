@@ -143,9 +143,9 @@ body {
   align-items: center; }
 
 .tituloMenu {
-  font-family: "Source Sans Pro", sans-serif !important;
+  font-family: "Archivo Narrow", sans-serif !important;
+  font-size: 2rem !important;
   color: #f9f9f9;
-  font-size: 2rem;
   /*display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -163,7 +163,16 @@ li {
   text-align: center; }
 
 .bordeCollapse {
-  border: 1px solid black !important; }
+  border: 1px solid #575757 !important; }
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.espacioMenu {
+  margin: 10px;
+  margin-bottom: 0px; }
 
 /*---AUDIO---*/
 .audioImg {
