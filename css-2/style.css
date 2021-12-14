@@ -178,6 +178,12 @@ li {
   margin: 10px;
   margin-bottom: 0px; }
 
+.dropdownProductos {
+  width: 266px;
+  background-color: #b1b1b1 !important;
+  color: #A4320B !important;
+  list-style-type: none !important; }
+
 /*---AUDIO---*/
 .audioImg {
   background-image: url(../imagenes/Audio.jpg);
@@ -306,9 +312,10 @@ li {
 
 .fondoProductos {
   margin: 10px;
+  margin-bottom: 80px;
   padding: 10px;
   background-color: #eaeaea;
-  border: 1px solid #afafaf; }
+  border: 1px solid #afafaf;}
 
 .botonProductos {
   width: 266px !important;
