@@ -162,6 +162,9 @@ ul {
 li {
   text-align: center; }
 
+.bordeCollapse {
+  border: 1px solid black !important; }
+
 /*---AUDIO---*/
 .audioImg {
   background-image: url(../imagenes/Audio.jpg);
