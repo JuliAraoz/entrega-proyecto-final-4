@@ -101,29 +101,33 @@ body {
   width: 100%;
   text-align: center; }
 
-.textoFormulario {
-  color: #A35318;
-  font-family: 'Source Sans Pro', sans-serifv;
-  padding: 20px;
-  margin-left: 10px;
-  margin-right: 20px;
-  margin-top: 25px;
-  margin-bottom: 15px;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
+/*.textoFormulario{
+    color:#A35318 ;
+    font-family: 'Source Sans Pro', sans-serifv;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}*/
 .botonesEnviar {
   width: 100%;
   text-align: center;
   padding-bottom: 20px; }
 
 .tituloForm {
-  color: #2764FB; }
+  color: #000000; }
 
 .espaciadoForm {
   margin-bottom: 15px; }
+
+.botonFormulario {
+  border: none !important;
+  background-color: #000000 !important; }
 
 .letraTitulos {
   font-family: "Source Sans Pro", sans-serif !important;
